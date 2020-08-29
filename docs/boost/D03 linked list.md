@@ -55,7 +55,8 @@ class LinkedList {
 - 배열 : 초기 생성시 메모리 사이즈를 할당해 두고 사용한다. 이때문에 사이즈 변환이 어렵지만, index를 통하여 빠르게 검색 가능하다
 - 링크드 리스트 :  리스트 자체에 데이터를 저장하지 않으며 인덱스 값만을 포함한다. 각 각의 노드가 연결된 노드의 주소값을 통하여 연결되어 있기 때문에 검색시 O(N)의 시간이 소모되지만, 크기 등이 유동적이다.
 
-    ![D03%20linked%20list%2097a970e6ca334a6ca8f6f6d964dd7595/Untitled.png](D03%20linked%20list%2097a970e6ca334a6ca8f6f6d964dd7595/Untitled.png)
+   ![Untitled](https://user-images.githubusercontent.com/41819176/91638958-20fcab80-ea4e-11ea-8150-8dca79c3234b.png)
+
 
 ## 이외의 자료구조
 - queue

@@ -98,7 +98,8 @@ ssh portingIP@USER
 1. lts 버전의 ubuntu.iso 다운로드 (.torrent 이용하여 빠르게 받을 수 있음)
 2. virtualBox 에 iso 삽입하여 ubuntu 설치 (설치시 사용자 계정 생성) 
 
-    ![D02%20shell%20script%206ec48a750981401eaf8f17f88439b007/install_ubuntu.png](D02%20shell%20script%206ec48a750981401eaf8f17f88439b007/install_ubuntu.png)
+    ![install_ubuntu](https://user-images.githubusercontent.com/41819176/91638971-3e317a00-ea4e-11ea-8b2b-a0ef1eb8ef21.png)
+
 
 
 

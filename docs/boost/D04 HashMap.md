@@ -1,8 +1,8 @@
-<!-- ---
+---
 layout: default
 title: D04-01-HASHMAP
 parent: Boost
---- -->
+---
 # D04-1 : HashMap
 
 ## HashMap
@@ -15,7 +15,7 @@ parent: Boost
 
 - hashMap 의 특징
 
-  ![./img/hashmap1.png](./img/hashmap1.png)
+  <img width="615" alt="hashmap1" src="https://user-images.githubusercontent.com/41819176/91639023-91a3c800-ea4e-11ea-8232-8d7671d84342.png">
     - key ⇒ value 를 찾는 과정에 hash function이 사용된다. 
     - value 값을 찾을 때 hashfunction을 한 번씩만 수행하면 되기 때무에 데이터 조회 및 저장 삭제가 빠르다는 장점이 있다.
     - 근본적인 문제점으로 hash충돌이 발생하며, 이에 대비한 몇가지 해결책이 제시되어있다.

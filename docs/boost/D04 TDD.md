@@ -13,7 +13,7 @@ parent: Boost
     - 통합테스트 : 서로 다른 시스템의 상호작용을 테스트
     - 기능테스트 : 전체 프로그램 및 사용자외의 상호작용까지 테스트
 
-    ![D04%20HashMap%20,%20TDD%206e17958be6004664a9ac29ab60f1c830/Untitled.png](D04%20HashMap%20,%20TDD%206e17958be6004664a9ac29ab60f1c830/Untitled.png)
+    ![Untitled](https://user-images.githubusercontent.com/41819176/91639046-b4ce7780-ea4e-11ea-86c3-47412ac0875d.png)
 
 ## Mocha 
 - node.js 에서 대표적으로 사용되는 테스트 프레임워크
