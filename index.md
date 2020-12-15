@@ -5,7 +5,7 @@ nav_order: 1
 permalink: /
 ---
 <p><h1  style="font-size:80px !important"> #Saeeng's Blog</h1>
-어쩌다 이런 누추한 곳에 오시게 되었는지 모르지만 환영합니다.
+ 환영합니다.
 
 </p>
 
