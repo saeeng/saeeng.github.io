@@ -1,6 +1,6 @@
 ---
 layout: default
-title: D01
+title: Biggest-number
 parent: Algorithm
 ---
 
