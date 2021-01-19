@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Failure Rate
+title: Failure Rate [실패율]
 parent: Algorithm
 ---
 
