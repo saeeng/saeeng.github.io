@@ -1,7 +1,7 @@
 ---
 layout: default
 title: D05-CLASS
-parent: Boost
+parent: BoostCamp
 ---
 # D05 : Class & Prototype
 

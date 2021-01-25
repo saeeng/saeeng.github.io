@@ -1,7 +1,7 @@
 ---
 layout: default
 title: D06-Functional Programming
-parent: Boost
+parent: BoostCamp
 ---
 # D06-Functional Programming
 

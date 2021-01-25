@@ -1,7 +1,7 @@
 ---
 layout: default
 title: D02-SHELL SCRIPT
-parent: Boost
+parent: BoostCamp
 ---
 # D02 : shell script
 

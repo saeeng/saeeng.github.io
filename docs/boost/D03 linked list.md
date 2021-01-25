@@ -1,7 +1,7 @@
 ---
 layout: default
 title: D03
-parent: Boost
+parent: BoostCamp
 ---
 # D03 : big O notation / basic Data structure
 

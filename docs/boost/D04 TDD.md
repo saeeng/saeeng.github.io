@@ -1,7 +1,7 @@
 ---
 layout: default
 title: D04-02-TDD
-parent: Boost
+parent: BoostCamp
 ---
 # D04-2 : TDD
 

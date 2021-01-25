@@ -1,7 +1,7 @@
 ---
 layout: default
 title: D04-01-HASHMAP
-parent: Boost
+parent: BoostCamp
 ---
 # D04-1 : HashMap
 
