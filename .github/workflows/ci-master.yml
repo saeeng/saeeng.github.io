@@ -6,6 +6,17 @@ on:
 name: Master branch CI
 
 jobs:
+  jekyll-latest:
+    name: Build Jekyll site (latest)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Build the site in the jekyll/builder container
+        run: |
+          docker run --rm \
+          --volume="${{ github.workspace }}:/srv/jekyll" \
+          jekyll/builder:latest /bin/bash -c "gem install bundler && chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build && bundle exec rake search:init"
   assets:
     name: Format and test CSS and JS
     runs-on: ubuntu-latest
