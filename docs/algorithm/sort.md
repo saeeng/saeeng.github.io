@@ -57,6 +57,7 @@ quickSort([4,1,7,6,3,8,2,5]); // [1,2,3,4,5,6,7,8]
 ## select sort
 - O(N^2)
 - 전체 배열을 N회 순회하면서, 매 순회마다 가장 작은값을 가장 앞으로 가져다 놓는 방법.
+  
 ```jsx
 var selectionSort = function(array) {
 var length = array.length;
@@ -117,6 +118,7 @@ mergeSort([5,2,4,7,6,1,3,8]); // [1, 2, 3, 4, 5, 6, 7, 8]
 - `1` : 첫 번째 카드는 정렬되어있다고 가정한다.
 - `2` : 다음 카드부터 시작하여 앞의 카드 배열을 순회하며 비교하여 적절한 위치에 찾아 넣는다.
 - `3` : `2`를 배열의 마직막 수 까지 반복한다. 
+  
 ```jsx
 var insertionSort = function(array) {
   var i = 1, j, temp;
