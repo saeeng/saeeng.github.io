@@ -1,8 +1,4 @@
----
-layout: default
-title: D04-02-TDD
-parent: BoostCamp
----
+
 # D04-2 : TDD
 
 ## **TDD**(Test Driven Developmet)

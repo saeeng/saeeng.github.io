@@ -1,8 +1,4 @@
----
-layout: default
-title: D03
-parent: BoostCamp
----
+
 # D03 : big O notation / basic Data structure
 
 ## javascript class

@@ -1,8 +1,4 @@
----
-layout: default
-title: D05-CLASS
-parent: BoostCamp
----
+
 # D05 : Class & Prototype
 
 ## Class  vs  Object  vs  Instance

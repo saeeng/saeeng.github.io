@@ -1,8 +1,4 @@
----
-layout: default
-title: D06-Functional Programming
-parent: BoostCamp
----
+
 # D06-Functional Programming
 
 ## 함수형 프로그래밍에 대해서 배워보자
