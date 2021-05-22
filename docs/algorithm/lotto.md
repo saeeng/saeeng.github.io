@@ -1,52 +1,54 @@
 ---
 layout: default
-title: BOAT
+title: LOTTO
 parent: Algorithm
 ---
 
-# <a href="https://programmers.co.kr/learn/courses/30/lessons/42885">구명보트</a>
+# <a href="https://programmers.co.kr/learn/courses/30/lessons/77484">[2021 Dev-Matching: 웹 백엔드 개발자(상반기)]로또의 최고 순위와 최저 순위
+</a>
 
 
 ## 풀이시간
-- 약 25분
+- 약 10분
   
 
 ## Code
 
-```java
-import java.util.*;
-
-class Solution {
-    public int solution(int[] people, int limit) {
-        Arrays.sort(people);
-        int answer = 0, light=0;
-        int i;
-        for(i=people.length-1; i>light; i--){
-            if(people[i]+people[light]<=limit){
-                light++;
-                answer++;
-            }else{
-                answer++;
-            }
+```jsx
+function solution(lottos, win_nums) {
+    var answer = [];
+   
+    let win_cnt=0;
+    lottos.forEach(num =>{
+        if(win_nums.includes(num)){
+            win_cnt++;
         }
-        if(i==light) answer++;
-        return answer;
-    }
+    })
+  
+    let zero_cnt = lottos.filter(num=>num==0).length;
+    
+    answer[1]=win_cnt;
+    answer[0]=(win_cnt+zero_cnt);
+    
+    let ans = answer.map(cnt=>{
+        if(cnt<2)return 6;
+        else return 7-cnt
+    })
+    
+    return ans;
 }
 ```
 
 ## KEY
-- sort
-- greedy
+- 
 
 
 ## IDEA
-
-- 보트에는 최대한 많은 인원(2)을 태우는것이 목적이기 때문에
-- 가장 무거운 사람과 가장 가벼운 사람을 함께 태워야한다.
-- 가장 무거운 사람은 가장 가벼운 사람하고도 같이 못타면 그 누구와도 같이 탈 수 없다.
-- 때문에, 문제의 핵심은 누가 가장 무거운지, 가벼운지를 파악해야하는 것이고
-- 대기열을 정렬하면 쉽게 해결 가능 하다.
+- 2021 Dev-Matching: 웹 백엔드 개발자(상반기)
+- 몇개의 지워진 번호를 통해 최고 등수와 최저 등수를 맞추는 문제
+- 철수가 매번 잉크를 엎지르던 중학교 수학문제를 떠올리게 하는 문제
+- 특별히 고려할 부분은 없고, js에서 배열의 특정 원소를 카운트하는 코드 트릭
+- `let zero_cnt = lottos.filter(num=>num==0).length;`
 
 
 ## Refer
