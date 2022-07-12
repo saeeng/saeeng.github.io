@@ -1,6 +1,9 @@
 name: Publish Gem
 
-on: [release]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
