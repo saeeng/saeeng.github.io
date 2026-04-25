@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="심플하고 가독성 좋은 단일 페이지 이력서"
+    />
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 id="name">Your Name</h1>
+        <p id="headline">간단한 소개 문구를 여기에 넣어주세요.</p>
+        <nav class="top-nav" aria-label="섹션 이동">
+          <a href="#intro">자기소개</a>
+          <a href="#experience">경력</a>
+          <a href="#skills">스킬셋</a>
+          <a href="#projects">기타 프로젝트</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="intro" class="section">
+        <h2>자기소개</h2>
+        <p id="introText"></p>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>경력 + 프로젝트 History</h2>
+        <div id="experienceList" class="stack"></div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>스킬셋</h2>
+        <div id="skillGroups" class="stack"></div>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>기타 프로젝트</h2>
+        <div id="projectList" class="cards"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small id="updatedAt"></small>
+      </div>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

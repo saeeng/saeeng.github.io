@@ -1,0 +1,146 @@
+:root {
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #475569;
+  --line: #e2e8f0;
+  --accent: #2563eb;
+  --max-width: 920px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Pretendard", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  width: min(var(--max-width), calc(100% - 2rem));
+  margin-inline: auto;
+}
+
+.site-header {
+  background: var(--card);
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  padding: 2.25rem 0 1.25rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  line-height: 1.25;
+}
+
+#headline {
+  color: var(--muted);
+  margin: 0.45rem 0 1rem;
+}
+
+.top-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 600;
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.92rem;
+}
+
+.section {
+  margin: 1rem 0;
+  padding: 1.1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+}
+
+h2 {
+  margin: 0 0 0.8rem;
+  font-size: 1.15rem;
+}
+
+.stack {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.card,
+.item {
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  padding: 0.85rem;
+  background: #fcfdff;
+}
+
+.item h3,
+.card h3 {
+  margin: 0;
+  font-size: 1.02rem;
+}
+
+.meta {
+  margin: 0.25rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+ul {
+  margin: 0.6rem 0 0;
+  padding-left: 1rem;
+}
+
+.cards {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.45rem;
+}
+
+.tag {
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--line);
+  background: #f8fafc;
+  font-size: 0.88rem;
+}
+
+.site-footer {
+  padding: 0 0 2rem;
+  color: var(--muted);
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 1.35rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
